@@ -1,5 +1,8 @@
 # Transaction Application
-Description: This is a spring boot application which exposes apis to manage transactions
+Description: This is a spring boot application which exposes apis to manage transactions. This file includes:
+* API Documentation
+* Steps to run the application
+* Additional Information about the application
 
 ## API List
 BaseUrl: http://localhost:8080
@@ -124,4 +127,4 @@ BaseUrl: http://localhost:8080
 * schema.sql and data.sql scripts are added in resources directory which will be automatically picked and executed at startup for database schema creation and adding the sample data to the Customer, Product and Transaction table
 * Bulk upload (binary data) API requires request body as "form-data" and file type param "file" having value of a well-formed json file. A sample file is present in src/main/resource/transactions.json. All the valid transactions in the file will be saved and transactions failing validations will be ignored
 
-**_NOTE:_** You would need to use Authorization header for making post call to save transaction using postman or curl command. A sample transaction is added in db at startup with transaction_id=1 if you do not wish to make post call and directly want to test get API. Token details: `Authourization: Basic YWRtaW46cGFzc3dvcmQ=`
+**_NOTE:_** You would need to use Authorization header for making post call to save transaction using postman or curl command. A sample transaction is added in db at startup with transaction_id=100001 if you do not wish to make post call and directly want to test get APIs. Token details: `Authourization: Basic YWRtaW46cGFzc3dvcmQ=`
