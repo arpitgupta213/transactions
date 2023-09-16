@@ -1,0 +1,14 @@
+[
+  {
+    "customer_id": 10003,
+    "transaction_time": "2023-12-12 10:08:02",
+    "quantity": 10,
+    "product_code": "PRODUCT_001"
+  },
+  {
+    "customer_id": 10005,
+    "transaction_time": "2022-12-12 10:08:02",
+    "quantity": 7,
+    "product_code": "PRODUCT_003"
+  }
+]
